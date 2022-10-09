@@ -154,6 +154,7 @@ address {
 /* site-nav */
 
 .site-nav {
+    margin: 0;
     display: flex;
     gap: 50px;
 }
@@ -191,6 +192,7 @@ address {
 /* Section what we do */
 
 .section-what-we-do {
+    padding-bottom: 0;
     background-color: var(--primary-white-color);
 }
 
@@ -237,6 +239,7 @@ address {
 
 .section-feature-list {
     background-color: var(--primary-white-color);
+    padding-bottom: 0;
 }
 
 .feature-list .title {
@@ -245,6 +248,10 @@ address {
     font-size: 14px;
     line-height: 1.14;
     margin-bottom: 10px;
+}
+
+.feature-list-discription {
+    line-height: 1.71;
 }
 
 /*Section portfolio*/
