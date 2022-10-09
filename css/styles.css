@@ -29,7 +29,7 @@ a {
 }
 
 ul {
-    margin: o;
+    margin: 0;
     padding-left: 0;
     list-style: none;
 }
@@ -131,6 +131,7 @@ address {
 .contacts {
     display: flex;
     gap: 50px;
+    align-items: center;
 }
 
 .logo {
@@ -192,7 +193,6 @@ address {
 /* Section what we do */
 
 .section-what-we-do {
-    padding-bottom: 0;
     background-color: var(--primary-white-color);
 }
 
@@ -248,6 +248,10 @@ address {
     font-size: 14px;
     line-height: 1.14;
     margin-bottom: 10px;
+}
+
+.feature-list-item {
+    width: 270px;
 }
 
 .feature-list-discription {
@@ -325,6 +329,7 @@ address {
 }
 
 .footer .logo {
+    display: block;
     margin-bottom: 20px;
 }
 
